@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phone Number Validation</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1> Welcome to DevCareer</h1>
+    <h2>Kindly fill the form below</h2>
+    <form id="phoneForm" action="#">
+        <div>
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" required>
+        <br></div>
+
+
+        <div>
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" required>
+        <br></div>
+
+
+        <div>
+        <label for="phoneNumber">Phone Number:</label><br>
+        <input type="text" id="phoneNumber" name="phoneNumber" required pattern="\+?\d{3,4}\d{6,}">
+        <span id="carrierIcon"></span>
+        <br></div>
+
+
+        <div class="send">
+        <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>c
